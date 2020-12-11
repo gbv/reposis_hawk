@@ -12,6 +12,7 @@
 //  - but import the bootswatch modifications after the bootstrap settings
 
 @import "project_styles/_variables";                // project variables
+@import "flatmir/lib/variables";
 @import "common/variables";                         // mir variables
 @import  "../assets/bootswatch/flatly/variables";   // bootswatch variables
 
