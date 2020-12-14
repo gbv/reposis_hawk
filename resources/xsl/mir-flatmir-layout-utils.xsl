@@ -19,20 +19,18 @@
           </ul>
         </nav>
       </div>
-      <div id="project_logo_box">
+      <div class="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="">
-          <span id="logo_mir">mir</span>
-          <span id="logo_modul">mycore</span>
-          <span id="logo_slogan">mods institutional repository</span>
+           <img class="img-fluid" src="{$WebApplicationBaseURL}/images/HAWK_2_pos.jpg" alt="Hawk Logo" />
         </a>
       </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
+    <div class="mir-main-nav">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-light">
 
           <button
             class="navbar-toggler"
@@ -46,7 +44,7 @@
           </button>
 
           <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav">
               <xsl:for-each select="$loaded_navigation_xml/menu">
                 <xsl:choose>
                   <!-- Ignore some menus, they are shown elsewhere in the layout -->
@@ -61,31 +59,6 @@
               </xsl:for-each>
               <xsl:call-template name="mir.basketMenu" />
             </ul>
-
-            <form
-              action="{$WebApplicationBaseURL}servlets/solr/find"
-              class="searchfield_box form-inline my-2 my-lg-0"
-              role="search">
-              <input
-                name="condQuery"
-                placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-                class="form-control mr-sm-2 search-query"
-                id="searchInput"
-                type="text"
-                aria-label="Search" />
-              <xsl:choose>
-                <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
-                  <input name="owner" type="hidden" value="createdby:*" />
-                </xsl:when>
-                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                </xsl:when>
-              </xsl:choose>
-              <button type="submit" class="btn btn-primary my-2 my-sm-0">
-                <i class="fas fa-search"></i>
-              </button>
-            </form>
-
           </div>
 
         </nav>
@@ -94,15 +67,6 @@
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
-    <!-- show only on startpage -->
-    <xsl:if test="//div/@class='jumbotwo'">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Mit MIR wird alles gut!</h1>
-          <h2>your repository - just out of the box</h2>
-        </div>
-      </div>
-    </xsl:if>
   </xsl:template>
 
   <xsl:template name="mir.footer">

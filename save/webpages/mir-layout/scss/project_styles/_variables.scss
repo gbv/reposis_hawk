@@ -14,8 +14,40 @@
 //  project settings
 // --------------------------------------------------
 
+// colors from style guide --------------------------
 
+$hawkWeiss:         #ffffff;
+$hawkMittelGrau:    #A8ADB3;  //RGB: 168R/173G/179B
+$hawkDunkelGrau:    #575756;  //RGB: 87R/87G/86B
+$hawkEventBlau:     #2F2ABF;  //RGB: 47R/42G/191B
+$hawkEventGruen:    #AFCA0B;  //RGB: 175R/202G/11B
+$hawkEventMagenta:  #E6007E;  //RGB: 230R/0G/126B
+
+//Fakultät Bauen und Erhalten
+$hawkGletscherblau: #5183BF; //RGB: 81R/131G/192B
+
+//Fakultät Gestaltung
+$hawkGoldgelb:      #F6A500; //RGB: 246R/165G/0B
+
+//Fakultät Management, Soziale Arbeit, Bauen
+$hawkTuerkisblau:   #009DB3; //RGB: 0R/157G/179B
+
+//Fakultät Ingenieurwissenschaften und Gesundheit
+$hawkMauve:         #AF708B; //RGB: 175R/112G/139B
+
+//Fakultät Ressourcenmanagement
+$hawkLimone:        #B9C243; //RGB: 185R/194G/67B
+
+//Fakultät Soziale Arbeit und Gesundheit
+$hawkRot:           #E9515A; //RGB: 233R/81G/90B
+
+// color from design --------------------------------
+
+$hawkHellSchwarz:   #2F3133;
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
+
+$primary:           $hawkEventBlau;
+$link-color:        $hawkEventBlau;

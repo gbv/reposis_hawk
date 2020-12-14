@@ -6,6 +6,9 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.mir-main-nav__entries {
+  justify-content: flex-end;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
