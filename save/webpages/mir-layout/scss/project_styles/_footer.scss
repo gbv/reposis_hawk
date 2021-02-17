@@ -8,8 +8,52 @@
 
 .flatmir-footer {
   background-color: $hawkDunkelGrau;
+  .footer-title {
+    margin-top: 1rem;
+    display: block;
+    margin-bottom: .3125rem;
+    text-transform: uppercase;
+    font-size: .9375rem;
+    line-height: 1.625rem;
+    letter-spacing: normal;
+    font-weight: 600;
+    color: #fff;
+  }
+  .footer-subline {
+    color: #a8adb3;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+  .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    &:first-child {
+      padding-left: 0;
+    }
+    a {
+      color: white;
+      font-size: .9375rem;
+      line-height: 1.5rem;
+      transition: color 150ms ease-in-out,box-shadow 150ms ease-in-out;
+      &:hover {
+        color: #e6eaef;
+        box-shadow: 0 .125rem 0 #e6eaef;
+        text-decoration: none;
+      }
+    }
+  }
 }
-
+.internal_links {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  &.navbar-nav {
+    flex-direction: row;
+    justify-content: start;
+  }
+}
 #powered_by {
   background-color: $hawkHellSchwarz;
 }

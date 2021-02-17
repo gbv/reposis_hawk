@@ -9,6 +9,9 @@
 .mir-main-nav__entries {
   justify-content: flex-end;
 }
+.mir-prop-nav .navbar-nav > li > a {
+  color: $hawkDunkelGrau;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

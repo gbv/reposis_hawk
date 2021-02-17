@@ -10,6 +10,14 @@
 .project_logo_box {
   width: 280px;
 }
+.searchBox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+body.home .searchBox {
+  display: none;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

@@ -2,6 +2,8 @@
 //  Variables
 // **************************************************
 
+$assetPathRoot : "../../../../";
+
 // --------------------------------------------------
 //  modifies bootstrap/bootswatch settings
 // --------------------------------------------------
@@ -50,4 +52,16 @@ $hawkHellSchwarz:   #2F3133;
 // --------------------------------------------------
 
 $primary:           $hawkEventBlau;
+$success:           $hawkEventGruen;
+$warning:           $hawkEventMagenta;
+$error:             $hawkEventMagenta;
+
 $link-color:        $hawkEventBlau;
+$link-hover-color:  $hawkEventBlau;
+
+$dropdown-link-color:       $hawkDunkelGrau;
+
+$navbar-light-color:        $hawkDunkelGrau;
+$navbar-light-hover-color:  $hawkEventBlau;
+
+$border-radius:     0;

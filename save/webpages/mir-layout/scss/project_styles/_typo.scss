@@ -5,7 +5,13 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+html,
+body {
+  font-family: 'FiraSans', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'FiraSans', Helvetica, Arial, sans-serif;
+}
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
