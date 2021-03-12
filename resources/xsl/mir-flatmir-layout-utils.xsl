@@ -22,7 +22,7 @@
       <div class="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="">
-           <img class="img-fluid" src="{$WebApplicationBaseURL}/images/HAWK_2_pos.jpg" alt="Hawk Logo" />
+           <img class="img-fluid" src="{$WebApplicationBaseURL}/images/hawk_logo_de.svg" alt="Hawk Logo" />
         </a>
       </div>
     </div>

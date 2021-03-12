@@ -46,6 +46,7 @@ $hawkRot:           #E9515A; //RGB: 233R/81G/90B
 // color from design --------------------------------
 
 $hawkHellSchwarz:   #2F3133;
+$hawkDunkelGrau:    #3B3D40;  // from webpage
 
 // --------------------------------------------------
 //  overwrite bootstrap
@@ -65,3 +66,5 @@ $navbar-light-color:        $hawkDunkelGrau;
 $navbar-light-hover-color:  $hawkEventBlau;
 
 $border-radius:     0;
+
+$body-color: $hawkDunkelGrau;
