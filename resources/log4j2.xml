@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration status="OFF">
   <appenders>
-    <RollingFile name="RollingFile" fileName="/mcr/fh-swf/logs/mycore-app.log"
+    <RollingFile name="RollingFile" fileName="/mcr/hawk/logs/mycore-app.log"
       filePattern="/mcr/hawk/logs/$${date:yyyy-MM}/mycore-app-%d{MM-dd-yyyy}-%i.log.gz">
       <PatternLayout>
         <Pattern>%highlight{%d{ISO8601} %-5p %X{loginId} %c{1}: %m%n%ex}</Pattern>
