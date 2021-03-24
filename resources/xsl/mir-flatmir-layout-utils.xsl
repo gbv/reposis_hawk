@@ -138,7 +138,7 @@
         <xsl:text>/find</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>/findPublic</xsl:text>
+        <xsl:text>/find</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
