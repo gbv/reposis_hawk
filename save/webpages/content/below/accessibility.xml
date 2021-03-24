@@ -1,25 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Barrierefreiheitserklärung">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Erklärung zur Barrierefreiheit</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2020-09-22" time="12:30"/>
-    </meta>
+  <section xml:lang="de" title="Barrierefreiheitserklärung ">
+    <div class="row">
+      <div class="col" lang="de">
+
+        <h2> Erklärung zur Barrierefreiheit <small class="text-muted">(Stand der Erklärung: 24.03.2021)</small>
+        </h2>
+        <p>
+          Als öffentliche Stelle im Sinne der Richtlinie (EU) 2016/2102 ist die HAWK bemüht, ihre Websites und mobilen Anwendungen im Einklang mit den Bestimmungen des Behindertengleichstellungsgesetzes des Bundes (BGG) sowie der Barrierefreien-Informationstechnik-Verordnung (BITV 2.0) zur Umsetzung der Richtlinie (EU) 2016/2102 barrierefrei zugänglich zu machen.
+        </p>
+
+        <p>
+          Diese Erklärung zur Barrierefreiheit gilt für den Publikationsserver der HAWK, der unter der Domain <a href="https://publikationsserver.hawk.de">publikationsserver.hawk.de</a> zu erreichen ist.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="row mt-3">
+      <div class="col-12">
+        <h3> Stand der Vereinbarkeit mit den Anforderungen </h3>
+        <p>
+          Diese Website befindet sich im Aufbau. Es wird demnächst ein BITV-Test durchgeführt und das Testergebnis an dieser Stelle veröffentlicht.
+        </p>
+        <p>
+          Diese Erklärung wurde am 24.03.2021 erstellt.
+        </p>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-12">
+        <h3> Feedback und Kontaktangaben </h3>
+        
+        <p>Über folgenden Kontakt können Sie Mängel in Bezug auf die Einhaltung der
+          Barrierefreiheitsanforderungen mitteilen und Informationen zu den Inhalten
+          anfordern, die von der Richtlinie ausgenommen sind:</p>
+        
+        <p class="border-left pl-5">
+          E-Mail: <span class="madress">open-access.bib [at] hawk.de</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-12">
+        <h3> Schlichtungsverfahren </h3>
+        
+        <p>Bei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie bei der Schlichtungsstelle, eingerichtet bei der Landesbeauftragten für Menschen mit Behinderungen in Niedersachsen, einen Antrag auf Einleitung eines Schlichtungsverfahrens nach dem Niedersächsischen Behindertengleichstellungsgesetz (NBGG) stellen.</p>
+        <p>Die Schlichtungsstelle nach § 9 d NBGG hat die Aufgabe, Streitigkeiten zwischen Menschen mit Behinderungen und öffentlichen Stellen des Landes Niedersachsen, zum Thema Barrierefreiheit in der IT, beizulegen.
+           <br />Das Schlichtungsverfahren ist kostenlos. Es muss kein Rechtsbeistand eingeschaltet werden.</p>
+        <p class="border-left pl-5">
+          Direkt kontaktieren können Sie die Schlichtungsstelle unter:<br /><br />
+          Hannah-Arendt-Platz 2<br />
+          30159 Hannover<br />
+          Tel.: 0511/120-4010<br />
+          Fax: 0511/120-99 4010<br />
+          E-Mail: <span class="madress">schlichtungsstelle [at] ms.niedersachsen.de</span>
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+<meta>
+  <log date="2021-03-24" time="18:26" labelPath=" » Admin" lastEditor="Kathleen Neumann" />
+</meta>
 </MyCoReWebPage>
