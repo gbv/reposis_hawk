@@ -22,10 +22,13 @@
       <div class="col-12">
         <h3> Stand der Vereinbarkeit mit den Anforderungen </h3>
         <p>
-          Diese Website befindet sich im Aufbau. Es wird demnächst ein BITV-Test durchgeführt und das Testergebnis an dieser Stelle veröffentlicht.
+          Diese Website befindet sich im Aufbau. Beim einen vorläufige BITV-Test über die funktionale Teile und 
+          das Design sind unterschiedlichste technischen Defizite und Mängel
+          identifiziert worden, die eine barrierefreie Nutzung der Webseite erschweren. Diese sind in dem 
+          <a href="accessibility_test_mir.xml">Protokoll</a> vom Test aufgelistet und werden sukzessive behoben.
         </p>
         <p>
-          Diese Erklärung wurde am 24.03.2021 erstellt.
+          Diese Erklärung wurde am 16.04.2021 geändert.
         </p>
       </div>
     </div>
