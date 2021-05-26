@@ -20,7 +20,7 @@ lib/h2-1.4.196.jar
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.nar
 *.ear
