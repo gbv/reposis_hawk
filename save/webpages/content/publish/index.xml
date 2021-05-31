@@ -11,14 +11,15 @@
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <p>
-                    Zur Veröffentlichung Ihres Beitrags auf INSTITUTION ist zunächst die Erfassung seiner bibliographischen
+                    Zur Veröffentlichung Ihres Beitrags auf HAWK.eDOC ist zunächst die Erfassung seiner bibliographischen
                     Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu – so im konkreten
                     Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende Erfassungsmaske. Bitte
                     beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils gewählten
                     Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden
                     Sie bitte ergänzend einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift
-                    versehenen <a href="../rights/vertrag.pdf">Publikationsvertrag</a> an:
-                    <span class="madress">INSTITUTION [at] beispiel.de</span>
+                    versehenen <a href="formular-veroeffentlichung.pdf">Publikationsvertrag</a> oder
+                    <a href="einverstaendnis-abschlussarbeiten.pdf">Veröffentlichung einer Abschlussarbeit</a> an:
+                    <span class="madress">openaccess.bib [at] hawk.de</span>
                 </p>
             </div>
         </div>
