@@ -4,36 +4,36 @@
   <label xml:lang="de" text="Institutionen der HAWK" description="Liste der Einrichtungen" />
   <label xml:lang="en" text="HAWK Institutions" description="A list of institutions" />
   <categories>
-    <category ID="faculties">
+    <category ID="fak">
       <label xml:lang="de" text="Fakultäten" />
-      <category ID="building_and_maintenance">
+      <category ID="fak_BuE">
         <label xml:lang="de" text="Fakultät Bauen und Erhalten" />
       </category>
-      <category ID="layout">
+      <category ID="fak_Gest">
         <label xml:lang="de" text="Fakultät Gestaltung" />
       </category>
-      <category ID="management_socialwork_building">
+      <category ID="fak_MSAB">
         <label xml:lang="de" text="Fakultät Management, Soziale Arbeit, Bauen" />
       </category>
-      <category ID="engineering_health">
+      <category ID="fak_IuG">
         <label xml:lang="de" text="Fakultät Ingenieurwissenschaften und Gesundheit" />
       </category>
-      <category ID="health_campus">
+      <category ID="GesCamp">
         <label xml:lang="de" text="Gesundheitscampus Göttingen" />
       </category>
-      <category ID="resource_management">
+      <category ID="fak_RM">
         <label xml:lang="de" text="Fakultät Ressourcenmanagement" />
       </category>
-      <category ID="socialwork_health">
+      <category ID="fak_SAG">
         <label xml:lang="de" text="Fakultät Soziale Arbeit und Gesundheit" />
       </category>
     </category>
-    <category ID="Zentrale Einrichtungen">
-      <label xml:lang="de" text="central_institutions" />
-      <category ID="hornemann_institute">
+    <category ID="ZEinr">
+      <label xml:lang="de" text="Zentrale Einrichtungen" />
+      <category ID="inst_Horn">
         <label xml:lang="de" text="Hornemann-Institut" />
       </category>
-      <category ID="other_institutions">
+      <category ID="sonstEinr">
         <label xml:lang="de" text="Sonstige Einrichtungen" />
       </category>
     </category>
