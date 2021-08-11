@@ -4,13 +4,13 @@
     <h1 class="text-uppercase">Publikationsserver HAWK.eDOC</h1>
     <div class="row">
       <div class="col-12 col-sm-9 col-md-8 col-lg-7 col-xl-6">
-        <form action="../servlets/solr/find" id="leo-searchMainPage" class="form-inline mb-3 mt-2" role="search">
+        <form action="../servlets/solr/find" id="hawk-searchMainPage" class="form-inline mb-3 mt-2" role="search">
           <div class="input-group input-group-lg w-100">
             <input
               name="condQuery"
               placeholder="Suche in 16.000 Dokumenten"
               class="form-control search-query"
-              id="leo-searchInput"
+              id="hawk-searchInput"
               type="text" />
             <div class="input-group-append">
               <button type="submit" class="btn btn-primary">
@@ -23,12 +23,12 @@
     </div>
     <p>Der Publikationsserver der HAWK Bibliothek dient der kostenfreien Veröffentlichung wissenschaftlicher Publikationen im Sinne von Open Access und steht allen Mitgliedern der HAWK Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen offen. Das Repositorium bietet:</p>
     <ul>
-    	<li>kostenfreie Veröffentlichung wissenschaftlicher Publikationen</li>
-    	<li>weltweit und dauerhaft freie Verfügbarkeit der Publikationen</li>
-    	<li>Sicherstellung der Zitierfähigkeit der Publikationen (durch Vergabe eines DOI)</li>
-    	<li>erhöhte Sichtbarkeit der Publikationen</li>
-    	<li>Langzeitarchivierung der Publikationen</li>
-    	<li>Unterstützung von Open Access</li>
+      <li>kostenfreie Veröffentlichung wissenschaftlicher Publikationen</li>
+      <li>weltweit und dauerhaft freie Verfügbarkeit der Publikationen</li>
+      <li>Sicherstellung der Zitierfähigkeit der Publikationen (durch Vergabe eines DOI)</li>
+      <li>erhöhte Sichtbarkeit der Publikationen</li>
+      <li>Langzeitarchivierung der Publikationen</li>
+      <li>Unterstützung von Open Access</li>
     </ul>
     <script src="../js/jquery.number.js"></script>
     <script>
@@ -39,13 +39,13 @@
           url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
           dataType: "jsonp",
           success: function (data) {
-            $('#leo-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
+            $('#hawk-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
           },
         });
       });
     </script>
   </section>
   <meta>
-    <log lastEditor="administrator" date="2021-02-15" time="12:44" />
+    <log lastEditor="administrator" date="2021-08-11" time="12:44" />
   </meta>
 </MyCoReWebPage>
