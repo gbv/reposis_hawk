@@ -8,7 +8,57 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+.stage {
+  margin-bottom: 2rem; //4
+}
+.stage__item {
+  min-height: 20rem; //30
+  padding-left: calc(100%/12 + 24px);
+  padding-bottom: 2.4rem;
+  position: relative;
+}
+.stage__pattern {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTAgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ2LjEgKDQ0NDYzKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5zdHJpcGVzIGxpZ2h0PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlN5bWJvbHMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgIDxnIGlkPSJzdHJpcGVzLWxpZ2h0IiBzdHJva2U9IiMzMTMzMzYiPgogICAgICAgICAgICA8cGF0aCBkPSJNLTAuNSwxMC41IEwxMC41LC0wLjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0tNS41LDUuNSBMNS41LC01LjUiIGlkPSJMaW5lLUNvcHkiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTUuNSwxNC41IEwxNi41LDMuNSIgaWQ9IkxpbmUtQ29weSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
+  opacity: .2;
+  top: 2.4rem;
+  right: calc(100%/12 + 24px);
+}
+.stage__image {
+  opacity: 1;
+  position: relative;
+  picture,
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  picture {
+      display: block;
+      overflow: hidden;
+      line-height: 0;
+      background-color: #fff;
+  }
+}
+.stage__content {
+  position: absolute;
+  left: 0;
+  padding-right: 50px;
+  bottom: 4.8rem;
+}
+.stage__headline {
+  display: table;
+  padding: .2rem .8rem .3rem 1rem;
+  text-transform: uppercase;
+  span {
+    box-shadow: .8rem -.2rem 0 #fff,-1rem -.2rem 0 0 #fff,.8rem .2rem 0 #fff,-1rem .2rem 0 0 #fff;
+    box-decoration-break: clone;
+    background: #fff;
+    outline: .1rem solid #fff;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
