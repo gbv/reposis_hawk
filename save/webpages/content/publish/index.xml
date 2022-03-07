@@ -69,7 +69,7 @@
               <h2>Publikation aus PubMed, CrossRef, ZDB oder K10plus importieren</h2>
               <div class="row form-group">
                 <label class="col-sm-3 col-lg-2 control-label">
-                  <select name="type">
+                  <select class="form-control" name="type">
                     <option value="doi">DOI</option>
                     <option value="pubmed">PubMed-ID</option>
                     <option value="isbn">ISBN</option>
