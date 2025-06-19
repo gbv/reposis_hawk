@@ -2,8 +2,6 @@
 jwt.secret
 *.resolved.properties
 *.active.properties
-/src/main/resources/config/reposis_hawk/mycore.properties
-src/main/resources/META-INF/persistence.xml
 data/
 lib/h2-1.4.196.jar
 
