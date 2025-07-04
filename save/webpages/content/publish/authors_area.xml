@@ -2,13 +2,21 @@
 <MyCoReWebPage><section xml:lang="de" title="neuer Eintrag"><div>
 <h1><strong>Hinweise für Autor*innen</strong></h1>
 
-<p>E-Publikationen können von Wissenschaftler*innen der HAWK Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen kostenlos veröffentlicht werden. Die Speicherung, Katalogisierung und Langzeitarchivierung elektronischer Dokumente gehört zum Auftrag der Hochschulbibliothek. Die Publikationen werden unter Wahrung des geltenden <a href="http://www.gesetze-im-internet.de/urhg/index.html">deutschen Urheberrechts</a> veröffentlicht, das bei den Autorinnen/Autoren verbleibt.</p>
+<p>E-Publikationen können von Wissenschaftler*innen der HAWK Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen kostenlos veröffentlicht werden. Die Speicherung, Katalogisierung und Langzeitarchivierung elektronischer Dokumente gehört zum Auftrag der Hochschulbibliothek. Die Publikationen werden unter Wahrung des geltenden <a href="http://www.gesetze-im-internet.de/urhg/index.html">deutschen Urheberrechts</a> veröffentlicht, das bei den Autor*innen verbleibt.</p>
 
 <p>Beachten Sie, gegebenenfalls das Einverständnis von Co-Autor*innen einzuholen. Die Einhaltung von Urheber- und Verwertungsrechten Dritter liegt in der Verantwortung der Autor*innen der elektronischen Dokumente. Die Hochschulbibliothek behält sich das Recht vor, eine Veröffentlichung von der Erfüllung der technischen und inhaltlichen Voraussetzungen abhängig zu machen.</p>
 
-<p>Bitte beachten Sie unsere Vertragsbedingungen (Link) sowie die Publikationsleitlinie (Link) unseres Publikationsservers.</p>
+<p>Bitte beachten Sie unsere <a href="https://publikationsserver.hawk.de/content/publish/contract.xml">Vertragsbedingungen</a> sowie die <a href="https://publikationsserver.hawk.de/content/publish/guidelines.xml">Publikationsleitlinie</a> unseres Publikationsservers.</p>
 
-<p>Wir benötigen von Ihnen die schriftliche Einwilligung, damit Ihre Publikation über den Publikationsserver der Hochschulbibliothek veröffentlicht und im Internet zur Verfügung gestellt werden kann. Bitte drucken Sie folgendes Formular aus ( <a href="formular-veroeffentlichung.pdf">Formular zur Veröffentlichung auf HAWK.eDoc</a> , <a href="einverstaendnis-abschlussarbeiten.pdf">Formular Einverständniserklärung zur Veröffentlichung der Abschlussarbeit</a> ) und senden Sie es unterschrieben an:</p>
+<p>Wir benötigen von Ihnen die Einwilligung, damit Ihre Publikation über den Publikationsserver der Hochschulbibliothek veröffentlicht und im Internet zur Verfügung gestellt werden kann. Bitte füllen Sie</p>
+
+<ul>
+	<li>das Antragsformular "<a href="/content/publish/HAWK.eDOC_Veroeffentlichung_single_2025.pdf">HAWK.eDOC_Veröffentlichung_single</a>" | "<a href="/content/publish/HAWK.eDOC_publication_single(2).pdf">HAWK.eDOC_publication_single</a>" aus, wenn Sie <strong>eine Publikation </strong>einreichen wollen, oder:</li>
+	<li>das Antragsformular "<a href="/content/publish/HAWK.eDOC_Veroeffentlichung_multiple_2025.pdf">HAWK.eDOC_Veröffentlichung_multiple</a>" aus, wenn Sie <strong>mehrere Publikationen</strong> einreichen wollen</li>
+	<li>das Antragsformular "<a href="/content/publish/Einverstaendniserklaerung_Abschlussarbeit_2025.pdf">Einverständniserklärung zur Veröffentlichung der Abschlussarbeit</a>" aus, wenn Sie Ihre <strong>Bachelor- oder Masterarbeit </strong>einreichen wollen.</li>
+</ul>
+
+<p>Das unterschriebene Formular senden Sie bitte per E-Mail an <a href="mailto:openaccess.bib@hawk.de">openaccess.bib@hawk.de</a>, oder per Post an:</p>
 
 <p><strong>HAWK Hochschule für angewandte Wissenschaft und Kunst<br />
 Bibliothek auf dem Campus<br />
@@ -16,8 +24,8 @@ Publikationsservices<br />
 Renatastr. 11, Haus A<br />
 31134 Hildesheim</strong></p>
 
-<p>Um ein Dokument an die Hochschulbibliothek zu übermitteln steht Ihnen unser Web-Formular zur Verfügung. Die Freischaltung der Publikation dauert ca. 1 Woche.</p>
+<p>Um Ihre wissenschaftliche Publikation hochzuladen, klicken Sie auf den Button „Anmelden“ und wählen Sie „Login für Studierende und Mitarbeitende“ aus. Melden Sie sich hier mit Ihrem Hochschulzugangsdaten (Kurzname und Passwort) an. Nach erfolgreichem Login wählen Sie über das Menü „Dokument einreichen“ den Menüpunkt „Publizieren“ aus.</p>
 
 <p>Bei einer Zweitveröffentlichung ist zu ermitteln, ob und unter welchen Bedingungen diese zulässig ist. Viele Zeitschriftenverlage gestatten der Autorin/dem Autor, eigene Aufsätze vorab als Preprint oder (parallel zur Erstveröffentlichung bzw. nach einer definierten Embargofrist) als Postprint auf einem Archivierungsserver der Hochschule ("institutional repository") frei zugänglich zu veröffentlichen. Um festzustellen, welche Verlage und Zeitschriften den Autorinnen/Autoren dieses Recht einräumen, finden Sie Einzelheiten und Hilfestellung in der <a href="http://sherpa.ac.uk/romeo/index.php">SHERPA/RoMEO-Liste</a></p>
 </div>
-</section><meta><log lastEditor="administrator" date="2021-03-15" time="13:44" /></meta></MyCoReWebPage>
+</section><meta><log lastEditor="twolter" date="2025-04-16" time="08:00" /></meta></MyCoReWebPage>
