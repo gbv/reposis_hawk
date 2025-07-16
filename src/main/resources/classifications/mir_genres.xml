@@ -11,9 +11,9 @@
       <label xml:lang="x-hosts" text="journal series collection proceedings standalone" />
       <category ID="chapter">
         <label xml:lang="en" text="Book chapter" />
-        <label xml:lang="x-hosts" text="book collection" />
         <label xml:lang="de" text="Buchkapitel" />
         <label xml:lang="x-mapping" text="marcgt:article diniPublType:bookPart" />
+        <label xml:lang="x-hosts" text="book collection" />
       </category>
       <category ID="speech">
         <label xml:lang="x-mapping" text="marcgt:conference_publication diniPublType:conferenceObject" />
@@ -70,8 +70,8 @@
         <label xml:lang="x-mapping" text="marcgt:thesis diniPublType:masterThesis XMetaDissPlusThesisLevel:master" />
       </category>
       <category ID="bachelor_thesis">
-        <label xml:lang="it" text="Tesi di laurea triennale" />
         <label xml:lang="x-mapping" text="marcgt:thesis diniPublType:bachelorThesis XMetaDissPlusThesisLevel:bachelor" />
+        <label xml:lang="it" text="Tesi di laurea triennale" />
         <label xml:lang="de" text="Abschlussarbeit (Bachelor)" />
         <label xml:lang="en" text="Bachelor thesis" />
         <label xml:lang="x-hosts" text="series standalone" />
@@ -103,8 +103,8 @@
     </category>
     <category ID="journal">
       <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="en" text="Journal" />
       <label xml:lang="de" text="Zeitschrift" />
+      <label xml:lang="en" text="Journal" />
       <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical" />
       <label xml:lang="x-editor" text="false" />
     </category>
