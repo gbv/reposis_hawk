@@ -34,11 +34,8 @@
           <div class="col">
 
             <div class="searchBox">
-              <xsl:variable name="core">
-                <xsl:call-template name="getLayoutSearchSolrCore" />
-              </xsl:variable>
               <form
-                action="{$WebApplicationBaseURL}servlets/solr{$core}"
+                action="{$WebApplicationBaseURL}servlets/solr/find"
                 class="searchfield_box form-inline my-2 my-lg-0"
                 role="search">
                 <input
@@ -49,7 +46,7 @@
                   type="text"
                   aria-label="Search" />
                 <xsl:choose>
-                  <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                  <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
                     <input name="owner" type="hidden" value="createdby:*" />
                   </xsl:when>
                   <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
@@ -130,17 +127,6 @@
         <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
       </a>
     </div>
-  </xsl:template>
-
-  <xsl:template name="getLayoutSearchSolrCore">
-    <xsl:choose>
-      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('submitter')">
-        <xsl:text>/find</xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>/find</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
 
 </xsl:stylesheet>
