@@ -70,6 +70,9 @@ local.properties
 # Locally stored "Eclipse launch configurations"
 *.launch
 
+# visual code studio
+*.code-workspace
+
 # PyDev specific (Python IDE for Eclipse)
 *.pydevproject
 

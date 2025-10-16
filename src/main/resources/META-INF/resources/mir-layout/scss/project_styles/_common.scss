@@ -29,17 +29,10 @@
 .stage__image {
   opacity: 1;
   position: relative;
-  picture,
   img {
     display: block;
     width: 100%;
     height: auto;
-  }
-  picture {
-      display: block;
-      overflow: hidden;
-      line-height: 0;
-      background-color: #fff;
   }
 }
 .stage__content {

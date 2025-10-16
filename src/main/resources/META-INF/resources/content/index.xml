@@ -8,20 +8,11 @@
         <div class="stage__pattern stage__pattern--full"></div>
         <div class="stage__image">
           <div>
-            <picture class="is-loaded">
-              <!--
-              <source media="(min-width: 1200px)" type="image/jpeg" data-srcset="/sites/default/files/styles/l_9col_16_9/public/forschung_2a.jpg?itok=6PWwj9HU 1x, /sites/default/files/styles/l_9col_16_9_retina/public/forschung_2a.jpg?itok=bQ5EA-TN 2x" srcset="/sites/default/files/styles/l_9col_16_9/public/forschung_2a.jpg?itok=6PWwj9HU 1x, /sites/default/files/styles/l_9col_16_9_retina/public/forschung_2a.jpg?itok=bQ5EA-TN 2x">
-              <source media="(min-width: 1000px) and (max-width: 1199px)" type="image/jpeg" data-srcset="/sites/default/files/styles/m_9col_16_9/public/forschung_2a.jpg?itok=hryOSnnR 1x, /sites/default/files/styles/m_9col_16_9_retina/public/forschung_2a.jpg?itok=zpkjr4F6 2x" srcset="/sites/default/files/styles/m_9col_16_9/public/forschung_2a.jpg?itok=hryOSnnR 1x, /sites/default/files/styles/m_9col_16_9_retina/public/forschung_2a.jpg?itok=zpkjr4F6 2x">
-              <source media="(min-width: 600px) and (max-width: 999px)" type="image/jpeg" data-srcset="/sites/default/files/styles/s_11col_16_9/public/forschung_2a.jpg?itok=bS_dMfnF 1x, /sites/default/files/styles/s_11col_16_9_retina/public/forschung_2a.jpg?itok=RXEsmLwp 2x" srcset="/sites/default/files/styles/s_11col_16_9/public/forschung_2a.jpg?itok=bS_dMfnF 1x, /sites/default/files/styles/s_11col_16_9_retina/public/forschung_2a.jpg?itok=RXEsmLwp 2x">
-              <source media="(min-width: 481px) and (max-width: 599px)" type="image/jpeg" data-srcset="/sites/default/files/styles/xs_12col_16_9/public/forschung_2a.jpg?itok=Zt0Y-LD5 1x, /sites/default/files/styles/xs_12col_16_9_retina/public/forschung_2a.jpg?itok=OSxItYxC 2x" srcset="/sites/default/files/styles/xs_12col_16_9/public/forschung_2a.jpg?itok=Zt0Y-LD5 1x, /sites/default/files/styles/xs_12col_16_9_retina/public/forschung_2a.jpg?itok=OSxItYxC 2x">
-              <source media="(max-width: 480px)" type="image/jpeg" data-srcset="/sites/default/files/styles/xxs_12col_16_9/public/forschung_2a.jpg?itok=w7qR8m6c 1x, /sites/default/files/styles/xxs_12col_16_9_retina/public/forschung_2a.jpg?itok=kDtYY_PS 2x" srcset="/sites/default/files/styles/xxs_12col_16_9/public/forschung_2a.jpg?itok=w7qR8m6c 1x, /sites/default/files/styles/xxs_12col_16_9_retina/public/forschung_2a.jpg?itok=kDtYY_PS 2x">
-              -->
-              <img
-                alt=""
-                title=""
-                src="../images/Z_21_05_30_KARTE_BUEHNE_WEB.jpg"
-                class="responsive-image__image" />
-            </picture>
+            <img
+              alt=""
+              title=""
+              src="../images/Z_21_05_30_KARTE_BUEHNE_WEB.jpg"
+              class="responsive-image__image" />
           </div>
         </div>
         <div class="stage__content">
