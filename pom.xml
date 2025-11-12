@@ -35,7 +35,6 @@
     </repository>
   </repositories>
   <dependencies>
-    <!-- Plugin is required by a check but not currently used in the build -->
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
