@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
-  <label xml:lang="x-uri" text="https://publikationsserver.hawk.de/api/v1/classifications/mir_institutes" />
   <label xml:lang="de" text="Institutionen der HAWK" description="Liste der Einrichtungen" />
   <label xml:lang="en" text="HAWK Institutions" description="A list of institutions" />
+  <label xml:lang="x-uri" text="https://publikationsserver.hawk.de/api/v1/classifications/mir_institutes" />
   <categories>
     <category ID="fak">
       <label xml:lang="de" text="Fakultäten" />
@@ -15,6 +15,9 @@
       <category ID="fak_MSAB">
         <label xml:lang="de" text="Fakultät Management, Soziale Arbeit, Bauen" />
       </category>
+      <category ID="jak_MBI">
+        <label xml:lang="de" text="Fakultät Management, Bauen, Immobilien" />
+      </category>
       <category ID="fak_IuG">
         <label xml:lang="de" text="Fakultät Ingenieurwissenschaften und Gesundheit" />
       </category>
@@ -23,6 +26,9 @@
       </category>
       <category ID="fak_RM">
         <label xml:lang="de" text="Fakultät Ressourcenmanagement" />
+      </category>
+      <category ID="fak_SA">
+        <label xml:lang="de" text="Fakultät Soziale Arbeit" />
       </category>
       <category ID="fak_SAG">
         <label xml:lang="de" text="Fakultät Soziale Arbeit und Gesundheit" />
