@@ -1,3 +1,4 @@
+update permission read for id webpage:/servlets/solr/select?q=createdby:{CurrentUser} with rulefile ${app.home}/config/acl/require-login.xml described by require login
 update classification from uri resource:classifications/mir_genres.xml
 update classification from uri resource:classifications/mir_institutes.xml
 update classification from uri resource:classifications/rfc5646.xml
