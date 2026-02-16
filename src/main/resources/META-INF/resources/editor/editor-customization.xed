@@ -11,16 +11,13 @@
   </xed:modify>
 
 
-
   <!-- ========== validation ========== -->
 
 
-
-<xed:template id="institutes">
-  <mir:insitut.repeated min="1" max="10" label="mir.institution" help-text="{i18n:mir.help.institutes}" />
-</xed:template>
   <!-- ========== project specific templates ========== -->
-
+  <xed:template id="institutes">
+    <mir:insitut.repeated min="1" max="10" label="mir.institution" help-text="{i18n:mir.help.institutes}"/>
+  </xed:template>
 
 </xed:template>
 
