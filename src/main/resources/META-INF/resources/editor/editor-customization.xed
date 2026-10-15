@@ -8,6 +8,7 @@
          https://cmswiki.rrz.uni-hamburg.de/hummel/MyCoRe/Organisation/AnwenderWorkshop2018?action=AttachFile&do=view&target=MyCoRe+XEditor+Erweiterungen+2018-11-14.pdf
          https://cmswiki.rrz.uni-hamburg.de/hummel/MyCoRe/Organisation/AnwenderWorkshop2018?action=AttachFile&do=view&target=MCR-Workshop2018_Rochowski_XEditor_Erweiterungen_Praxis.pdf
     -->
+    <xed:remove ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
 
