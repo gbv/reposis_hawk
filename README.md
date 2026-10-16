@@ -1,5 +1,7 @@
 # reposis_hawk
 
+MIR plugin containing project-specific customizations for the publication server of the HAWK Library.
+
 Compatible with **MIR 2023.06.x**.
 
 ## Installation
