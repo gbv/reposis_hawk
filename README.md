@@ -3,7 +3,7 @@
 [MIR](https://github.com/MyCoRe-Org/mir) plugin containing project-specific
 customizations for the publication server of the HAWK Library.
 
-Compatible with **MIR 2024.06.x**.
+Compatible with **MIR 2025.06.x**.
 
 ## Installation
 
