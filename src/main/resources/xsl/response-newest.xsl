@@ -37,8 +37,9 @@
         <div class="result_list_end" />
       </div>
     </div>
-    <xsl:if test="string-length($MCR.ORCID.OAuth.ClientSecret) &gt; 0">
-      <script src="{$WebApplicationBaseURL}js/mir/mycore2orcid.js" />
+    <xsl:if test="$isOrcidEnabled">
+      <xsl:call-template name="render-export-to-orcid-modal" />
+      <script type="module" src="{$WebApplicationBaseURL}js/mir/orcid-result-list.js" />
     </xsl:if>
     <script>
       // removes unwanted xsl style part from hit link
