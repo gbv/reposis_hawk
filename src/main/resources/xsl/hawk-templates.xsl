@@ -5,7 +5,7 @@
   exclude-result-prefixes="mcri18n">
 
   <xsl:template match="index-search-form">
-    <form action="../servlets/solr/find" id="hawk-searchMainPage" class="form-inline mb-3 mt-2" role="search">
+    <form action="../servlets/solr/find" id="hawk-searchMainPage" class="d-flex mb-3 mt-2" role="search">
       <div class="input-group input-group-lg w-100">
         <input
           name="condQuery"
@@ -13,11 +13,9 @@
           class="form-control search-query"
           id="hawk-searchInput"
           type="text" />
-        <div class="input-group-append">
-          <button type="submit" class="btn btn-primary">
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
+        <button type="submit" class="btn btn-primary">
+          <i class="fa fa-search"></i>
+        </button>
       </div>
     </form>
   </xsl:template>
