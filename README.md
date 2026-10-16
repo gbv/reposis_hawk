@@ -1,6 +1,7 @@
 # reposis_hawk
 
-MIR plugin containing project-specific customizations for the publication server of the HAWK Library.
+[MIR](https://github.com/MyCoRe-Org/mir) plugin containing project-specific
+customizations for the publication server of the HAWK Library.
 
 Compatible with **MIR 2023.06.x**.
 
@@ -20,3 +21,4 @@ MCR.Developer.Resource.Override=/path/to/reposis_hawk/src/main/resources
 MCR.LayoutService.LastModifiedCheckPeriod=0
 MCR.UseXSLTemplateCache=false
 MCR.SASS.DeveloperMode=true
+```
