@@ -95,6 +95,13 @@
         <label xml:lang="x-mapping" text="marcgt:conference_publication diniPublType:conferenceObject diniPublType2022:ConferenceProceedings" />
       </category>
     </category>
+    <category ID="meeting_abstract">
+      <label xml:lang="en" text="Meeting Abstract" />
+      <label xml:lang="de" text="Konferenzabstract" />
+      <label xml:lang="it" text="Abstract della conferenza" />
+      <label xml:lang="x-hosts" text="standalone proceedings journal" />
+      <label xml:lang="x-mapping" text="marcgt:conference_publication diniPublType:conferenceObject diniPublType2022:MeetingAbstract schemaOrg:ScholarlyArticle coarResourceTypes32:c_c94f openAIRE400resourceTypeGeneral:literature" />
+    </category>
     <category ID="report">
       <label xml:lang="de" text="Bericht" />
       <label xml:lang="en" text="Report" />

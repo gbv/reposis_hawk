@@ -21,6 +21,30 @@
     <xed:remove ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
+  <!-- ========== Genre: New ========== -->
+  <!-- Part of MIR 2026.12, remove after upgrade -->
+  <xed:template id="genres.meeting_abstract">
+    <xed:include ref="title.original" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="conference" />
+    </xed:if>
+    <xed:include ref="author.repeated" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="year.issued" />
+      <xed:include ref="place" />
+      <xed:include ref="extent" />
+    </xed:if>
+    <xed:include ref="language" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="sdnb.repeat" />
+    <xed:include ref="subject.simple" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="rights" />
+    <xed:include ref="institutes" />
+    <xed:include ref="comment" />
+  </xed:template>
+
   <!-- ========== General: Overrides ========== -->
   <!-- Institutes are required and repeatable -->
   <xed:template id="institutes">
