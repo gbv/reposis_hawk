@@ -10,16 +10,16 @@
 
   <xsl:template name="mir.navigation">
     <div id="header_box" class="clearfix container">
-      <div id="options_nav_box" class="mir-prop-nav">
+      <div id="options_nav_box" class="mir-prop-nav d-flex justify-content-end">
         <nav>
-          <ul class="navbar-nav ml-auto flex-row">
+          <ul class="navbar-nav ms-auto flex-row">
             <xsl:call-template name="mir.loginMenu" />
             <xsl:call-template name="mir.languageMenu" />
           </ul>
         </nav>
       </div>
       <div class="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}">
+        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2))}">
           <img class="img-fluid" src="{$WebApplicationBaseURL}/images/hawk_logo_de.svg" alt="Hawk Logo" />
         </a>
       </div>
@@ -32,7 +32,7 @@
             <div class="searchBox">
               <form
                 action="{$WebApplicationBaseURL}servlets/solr/find"
-                class="searchfield_box form-inline my-2 my-lg-0"
+                class="searchfield_box d-flex my-2 my-lg-0"
                 role="search">
                 <input
                   name="condQuery"
@@ -60,8 +60,8 @@
               <button
                 class="navbar-toggler"
                 type="button"
-                data-toggle="collapse"
-                data-target="#mir-main-nav-collapse-box"
+                data-bs-toggle="collapse"
+                data-bs-target="#mir-main-nav-collapse-box"
                 aria-controls="mir-main-nav-collapse-box"
                 aria-expanded="false"
                 aria-label="Toggle navigation">
