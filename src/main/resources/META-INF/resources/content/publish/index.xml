@@ -11,23 +11,23 @@
 </section><section xml:lang="en" title="New publication" /><section xml:lang="all"><div><script src="../../js/mir/select-doctype.js" /><form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
 
     <!-- genre -->
-    <div class="row form-group">
-        <label for="genre" class="col-sm-3 col-lg-2 control-label">
+    <div class="row mir-form-group">
+        <label for="genre" class="col-sm-3 col-lg-2 control-label form-label">
             <text i18n="component.mods.genre" />
         </label>
         <div class="col-sm-7 col-md-5 col-lg-4">
-            <select id="genre" class="form-control" name="genre" size="1">
+            <select id="genre" class="form-control form-select" name="genre" size="1">
             </select>
         </div>
     </div>
 
     <!-- host -->
-    <div class="row form-group">
-        <label for="host" class="col-sm-3 col-lg-2 control-label">
+    <div class="row mir-form-group">
+        <label for="host" class="col-sm-3 col-lg-2 control-label form-label">
             <text i18n="mir.select.host" />
         </label>
         <div class="col-sm-7 col-md-5 col-lg-4">
-            <select id="host" class="form-control" name="host" size="1">
+            <select id="host" class="form-control form-select" name="host" size="1">
             </select>
         </div>
     </div>
@@ -44,11 +44,11 @@
     </div>
 
     <!-- more options -->
-    <div id="more_options_box" class="row form-group">
+    <div id="more_options_box" class="row mir-form-group">
         <h2>Publikation aus PubMed, CrossRef, ZDB oder K10plus importieren</h2>
-        <div class="row form-group">
-            <label class="col-sm-3 col-lg-2 control-label">
-                <select class="form-control" name="type">
+        <div class="row mir-form-group">
+            <label class="col-sm-3 col-lg-2 control-label form-label">
+                <select class="form-control form-select" name="type">
                     <option value="doi">DOI</option>
                     <option value="pubmed">PubMed-ID</option>
                     <option value="isbn">ISBN</option>
@@ -65,7 +65,7 @@
     </div>
 
     <!-- submit -->
-    <div class="row form-group">
+    <div class="row mir-form-group">
         <div class="col-sm-3 col-md-2" />
         <div class="col-sm-5 col-md-4">
             <button type="submit" class="btn btn-primary">Dokument einreichen</button>
